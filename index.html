@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Component 1.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>EPL 18/19 TEAM INFO</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="body-flex">
+            <div class="select-container">
+                <img src="https://media.api-football.com/leagues/2.png" alt="EPL">
+                <h1 class="header-text">PREMIER LEAGUE 2018/2019</h1>
+
+                <form>
+                    <select name="select" id="select">
+                        <option value="select" selected>Select a Team</option>
+                        <option value="0">Manchester United</option>
+                        <option value="1">Leicester</option>
+                        <option value="2">Newcastle</option>
+                        <option value="3">Tottenham</option>
+                        <option value="4">Bournemouth</option>
+                        <option value="5">Cardiff</option>
+                        <option value="6">Fulham</option>
+                        <option value="7">Crystal Palace</option>
+                        <option value="8">Huddersfield</option>
+                        <option value="9">Chelsea</option>
+                        <option value="10">Watford</option>
+                        <option value="11">Brighton</option>
+                        <option value="12">Wolves</option>
+                        <option value="13">Everton</option>
+                        <option value="14">Liverpool</option>
+                        <option value="15">West Ham</option>
+                        <option value="16">Southampton</option>
+                        <option value="17">Burnley</option>
+                        <option value="18">Arsenal</option>
+                        <option value="19">Manchester City</option>
+                    </select>
+
+                    <input type="submit" class="submit-btn" value="GET INFO">
+                </form>
+            </div>
+
+            <div class="team-info d-none">
+                <img class="club-logo" src="https://media.api-sports.io/football/teams/33.png" alt="Team">
+                <p class="team-name">MANCHESTER UNITED</p>
+                <p class="year"><strong>FOUNDED:</strong> 1294</p>
+                <p class="stadium"><strong>STADIUM:</strong> ORILE</p>
+                <p class="address">
+                    <strong>STADIUM ADDRESS:</strong> ILE KEWU
+                    <br>
+                    <strong>STADIUM CAPACITY:</strong> 45687
+                </p>
+                <!-- <p class="manager">MANAGER</p>
+                <p class="manager-name">ED SHEERAN</p> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="code.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
